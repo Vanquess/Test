@@ -85,7 +85,7 @@ public class 全排列_模板2 {
 
 在上面模板上使用了哈希表查重，把一些数组并接成字符串
 
-```
+```java
 import java.util.HashSet;
  
 public class 全排列_模板3 {
@@ -138,7 +138,7 @@ public class 全排列_模板3 {
 
 ## 筛素数O(![{\color{DarkBlue} n^{\tfrac{3}{2}}}](https://private.codecogs.com/gif.latex?%7B%5Ccolor%7BDarkBlue%7D%20n%5E%7B%5Ctfrac%7B3%7D%7B2%7D%7D%7D))
 
-```
+```java
 	static boolean is(int n) {
 		if(n==1)
 			return false;
@@ -151,7 +151,7 @@ public class 全排列_模板3 {
 
 ## 倍筛法_素数O(nlogn)
 
-```
+```java
 public class 倍筛模板 {
  
 	public static void main(String[] args) {
@@ -168,7 +168,7 @@ public class 倍筛模板 {
 
 ## 最小公倍数gcd
 
-```
+```java
 	static int gcd(int a,int b) {
 		return b==0?a:gcd(b,a%b);
 	}
@@ -208,7 +208,7 @@ public class 倍筛模板 {
 
 ## 输入挂模板
 
-```
+```java
 	//解决javaIO读取过慢的方法，利用该类读取输入数据，不要用Scanner！！！
 	static class InputReader {
 		public BufferedReader reader;
@@ -238,7 +238,7 @@ public class 倍筛模板 {
 
 ## BufferedReader和BufferedWriter
 
-```
+```java
 public class Main{
     static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     static BufferedWriter out = new BufferedWriter(new OutputStreamWriter(System.out));
